@@ -2,13 +2,16 @@ package com.example.androiddevchallenge.components
 
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.material.Text
 import androidx.compose.material.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavType
-import androidx.navigation.compose.*
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.navArgument
+import androidx.navigation.compose.navigate
+import androidx.navigation.compose.rememberNavController
 import com.example.androiddevchallenge.R
 import com.example.androiddevchallenge.model.Repository
 import com.example.androiddevchallenge.ui.theme.MyTheme
